@@ -52,12 +52,12 @@
 "room_member_power_level_moderator_in" = "Valvoja %@:ssä";
 
 
-// MARK: - MatrixKit
+// MARK: - PL-MatrixKit
 
-"matrix" = "Matrix";
+"matrix" = "PL-Matrix";
 // Login Screen
 "login_create_account" = "Luo tili:";
-"login_server_url_placeholder" = "URL (esim. https://matrix.org)";
+"login_server_url_placeholder" = "URL (esim. https://mtxnode1.privateline.dev)";
 "login_home_server_title" = "Kotipalvelin:";
 "login_identity_server_title" = "Identiteettipalvelin:";
 "login_password_placeholder" = "Salasana";
@@ -76,7 +76,7 @@
 "login_desktop_device" = "Työpöytä";
 "close" = "Sulje";
 "select_account" = "Valitse tili";
-"invite_user" = "Kutsu Matrix-käyttäjä";
+"invite_user" = "Kutsu PL-Matrix-käyttäjä";
 "select_all" = "Valitse kaikki";
 "cancel_upload" = "Peruuta lähetys";
 "cancel_download" = "Peruuta lataus";
@@ -107,7 +107,7 @@
 "room_event_encryption_info_device_name" = "Julkinen nimi\n";
 // Account
 "account_save_changes" = "Tallenna muutokset";
-"account_error_matrix_session_is_not_opened" = "Matrix-istunto ei ole avattuna";
+"account_error_matrix_session_is_not_opened" = "PL-Matrix-istunto ei ole avattuna";
 "account_error_email_wrong_title" = "Virheellinen sähköpostiosoite";
 "account_error_email_wrong_description" = "Tämä ei vaikuta kelvolliselta sähköpostiosoitteelta";
 "account_error_msisdn_wrong_title" = "Virheellinen puhelinnumero";
@@ -129,7 +129,7 @@
 "attachment_multiselection_original" = "Todellinen koko";
 "attachment_e2e_keys_import" = "Tuo...";
 // Contacts
-"contact_mx_users" = "Matrix-käyttäjät";
+"contact_mx_users" = "PL-Matrix-käyttäjät";
 "contact_local_contacts" = "Paikalliset yhteystiedot";
 "group_section" = "Ryhmät";
 // Search
@@ -194,8 +194,8 @@
 "account_error_display_name_change_failed" = "Näyttönimen vaihtaminen epäonnistui";
 "account_error_picture_change_failed" = "Kuvan vaihtaminen epäonnistui";
 "ssl_could_not_verify" = "Etäpalvelimen identiteetin vahvistaminen epäonnistui.";
-"login_user_id_placeholder" = "Matrix ID (esim. @matti:matrix.org tai pelkästään matti)";
-"login_identity_server_info" = "Matrix tarjoaa identiteettipalvelimen joka osaa kertaa mikä sähköpostiosoite tai puhelinnumero vastaa mitäkin Matrix ID:tä. Vain https://matrix.org on tällä hetkellä käytettävissä.";
+"login_user_id_placeholder" = "PL-Matrix ID (esim. @matti:mtxnode1.privateline.dev tai pelkästään matti)";
+"login_identity_server_info" = "PL-Matrix tarjoaa identiteettipalvelimen joka osaa kertaa mikä sähköpostiosoite tai puhelinnumero vastaa mitäkin PL-Matrix ID:tä. Vain https://mtxnode1.privateline.dev on tällä hetkellä käytettävissä.";
 "suggest" = "Ehdota";
 "add" = "Lisää";
 "existing" = "Nykyinen";

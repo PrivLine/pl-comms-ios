@@ -6,17 +6,17 @@
 	<string>development</string>
 	<key>com.apple.developer.associated-domains</key>
 	<array>
-		<string>applinks:www.vector.im</string>
-		<string>applinks:vector.im</string>
-		<string>applinks:riot.im</string>
-		<string>applinks:www.riot.im</string>
-		<string>webcredentials:riot.im</string>
-		<string>applinks:element.io</string>
-		<string>applinks:app.element.io</string>
-		<string>applinks:staging.element.io</string>
-		<string>applinks:develop.element.io</string>
-		<string>applinks:mobile.element.io</string>
-		<string>webcredentials:*.element.io</string>
+		<string>applinks:www.mtxnode1.privateline.dev</string>
+		<string>applinks:mtxnode1.privateline.dev</string>
+		<string>applinks:mtxnode1.privateline.dev</string>
+		<string>applinks:www.mtxnode1.privateline.dev</string>
+		<string>webcredentials:mtxnode1.privateline.dev</string>
+		<string>applinks:privateline.dev</string>
+		<string>applinks:app.privateline.dev</string>
+		<string>applinks:staging.privateline.dev</string>
+		<string>applinks:develop.privateline.dev</string>
+		<string>applinks:mobile.privateline.dev</string>
+		<string>webcredentials:*.privateline.dev</string>
 	</array>
 	<key>com.apple.developer.icloud-container-identifiers</key>
 	<array>
