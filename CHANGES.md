@@ -387,7 +387,7 @@
 
 🧱 Build
 
-- Fix Element Alpha workflow not being able to run. ([#7256](https://github.com/vector-im/element-ios/pull/7256))
+- Fix PL Comms Alpha workflow not being able to run. ([#7256](https://github.com/vector-im/element-ios/pull/7256))
 
 
 ## Changes in 1.9.15 (2023-01-10)
@@ -699,7 +699,7 @@ Others
 - Filter out application section in session details if needed. ([#6898](https://github.com/vector-im/element-ios/pull/6898))
 - Rich text editor now supports interactive dismissal by dragging the timeline. ([#6919](https://github.com/vector-im/element-ios/pull/6919), [#6900](https://github.com/vector-im/element-ios/issues/6900))
 - Location sharing: removing the loader. ([#5571](https://github.com/vector-im/element-ios/issues/5571))
-- Element freezes after searching in a room. ([#6762](https://github.com/vector-im/element-ios/issues/6762))
+- PL Comms freezes after searching in a room. ([#6762](https://github.com/vector-im/element-ios/issues/6762))
 - Settings: Use regular titles for all of the sub-screens. ([#6804](https://github.com/vector-im/element-ios/issues/6804))
 - All Chats: Fix a header glitch when aborting a pop gesture. ([#6833](https://github.com/vector-im/element-ios/issues/6833))
 - Device manager: Fixes from x-platform testing. ([#6864](https://github.com/vector-im/element-ios/issues/6864))
@@ -788,7 +788,7 @@ Others
 
 - Fix crash when some opus audio files are added to a room. ([#6584](https://github.com/vector-im/element-ios/issues/6584))
 - Fixed failed to join room (was not legal room) ([#6653](https://github.com/vector-im/element-ios/issues/6653))
-- Fix crash presenting Sign Out or Invite to Element menu items on iPad. ([#6654](https://github.com/vector-im/element-ios/issues/6654))
+- Fix crash presenting Sign Out or Invite to PL Comms menu items on iPad. ([#6654](https://github.com/vector-im/element-ios/issues/6654))
 - Fix crash on logout when syncing is currently in progress ([#6705](https://github.com/vector-im/element-ios/issues/6705))
 - New layout: Fixed Low priority rooms titles obscured by bottom bar when side scrolling ([#6707](https://github.com/vector-im/element-ios/issues/6707))
 - Message Composer: Stop the keyboard jumping after sending a message on certain devices. ([#6708](https://github.com/vector-im/element-ios/issues/6708))
@@ -972,7 +972,7 @@ Others
 
 ⚠️ API Changes
 
-- Update the app's bundle name to show Element during SSO. ([#6462](https://github.com/vector-im/element-ios/issues/6462))
+- Update the app's bundle name to show PL Comms during SSO. ([#6462](https://github.com/vector-im/element-ios/issues/6462))
 
 📄 Documentation
 
@@ -1055,7 +1055,7 @@ Others
 - Location sharing: Update map credits display and behavior. ([#6108](https://github.com/vector-im/element-ios/issues/6108))
 - Location sharing: Add view to promote live location sharing labs flag on the sharing screen. ([#6238](https://github.com/vector-im/element-ios/issues/6238))
 - Remove legacy Riot-Defaults property list ([#6273](https://github.com/vector-im/element-ios/issues/6273))
-- DesignKit: Replace the local DesignKit target with the shared Swift package from ElementX. ([#6276](https://github.com/vector-im/element-ios/issues/6276))
+- DesignKit: Replace the local DesignKit target with the shared Swift package from PL CommsX. ([#6276](https://github.com/vector-im/element-ios/issues/6276))
 - Enhance the VectorHostingController to be presented as a bottom sheet ([#6376](https://github.com/vector-im/element-ios/issues/6376))
 - Location sharing: Live location sharing UI polishing. ([#6382](https://github.com/vector-im/element-ios/issues/6382))
 
@@ -1111,14 +1111,14 @@ Others
 - Display mandatory backup only if session is running ([#6331](https://github.com/vector-im/element-ios/pull/6331))
 - Authentication: Don't attempt to login if the user presses the return key whilst loading a homeserver parsed from a username. ([#6338](https://github.com/vector-im/element-ios/pull/6338))
 - Media: Fix size issues when opening media on an iPad whilst multi-tasking. ([#6339](https://github.com/vector-im/element-ios/pull/6339))
-- Timeline: Fixes the font when running Element on a Mac with Apple Silicon. ([#6340](https://github.com/vector-im/element-ios/pull/6340))
+- Timeline: Fixes the font when running PL Comms on a Mac with Apple Silicon. ([#6340](https://github.com/vector-im/element-ios/pull/6340))
 - Accessibility: VoiceOver: Voice Messages: Properly end the active audio session so that VoiceOver audio returns to the main speaker when audio recording finishes. ([#6343](https://github.com/vector-im/element-ios/pull/6343))
 - Authentication: Trim whitespace and trailing slashes from the entered homeserver address. ([#995](https://github.com/vector-im/element-ios/issues/995))
 - Share extension: Fix background colour in dark mode. ([#3029](https://github.com/vector-im/element-ios/issues/3029))
 - Fix Invites are collapsed incorrectly ([#4102](https://github.com/vector-im/element-ios/issues/4102))
 - Timeline: Reduce the tap target size for the sender's name so it no longer overlaps the first message. ([#4324](https://github.com/vector-im/element-ios/issues/4324))
 - Directory: Add some bottom space to the directory list. ([#5113](https://github.com/vector-im/element-ios/issues/5113))
-- Message Composer: Element no longer shows a banner about pasting from another app when selecting text. ([#5324](https://github.com/vector-im/element-ios/issues/5324))
+- Message Composer: PL Comms no longer shows a banner about pasting from another app when selecting text. ([#5324](https://github.com/vector-im/element-ios/issues/5324))
 - Make avatar view tappable in bubble layout ([#5572](https://github.com/vector-im/element-ios/issues/5572))
 - Room: Update actions on the input toolbar when refreshed. ([#5584](https://github.com/vector-im/element-ios/issues/5584))
 - Room: Hide add people button on room intro header if user not allowed. ([#5731](https://github.com/vector-im/element-ios/issues/5731))
@@ -1232,7 +1232,7 @@ Others
 - Authentication: Add Email/Terms/ReCaptcha screens into the flow. ([#5151](https://github.com/vector-im/element-ios/issues/5151))
 - Authentication: Implement msisdn verification screen. ([#6182](https://github.com/vector-im/element-ios/issues/6182))
 - Location sharing: Support sending live device location. ([#5722](https://github.com/vector-im/element-ios/issues/5722))
-- Authentication: Implement the LoginWizard to match Element Android. ([#5896](https://github.com/vector-im/element-ios/issues/5896))
+- Authentication: Implement the LoginWizard to match PL Comms Android. ([#5896](https://github.com/vector-im/element-ios/issues/5896))
 - Location sharing: Support restarting location sending after app kill. ([#6199](https://github.com/vector-im/element-ios/issues/6199))
 
 
@@ -1343,7 +1343,7 @@ Others
 - Wrong copy for upgrade room message ([#5997](https://github.com/vector-im/element-ios/issues/5997))
 - Reset home filters when switching tabs. ([#6004](https://github.com/vector-im/element-ios/issues/6004))
 - Fix contact details view layout to safe area ([#6012](https://github.com/vector-im/element-ios/issues/6012))
-- Element: Fix some crashes after 1.8.10. ([#6023](https://github.com/vector-im/element-ios/issues/6023))
+- PL Comms: Fix some crashes after 1.8.10. ([#6023](https://github.com/vector-im/element-ios/issues/6023))
 
 🗣 Translations
 
@@ -1873,7 +1873,7 @@ Others
 
 - Message Composer: Pasting images from Safari now pastes the image and not its URL. ([#2076](https://github.com/vector-im/element-ios/issues/2076))
 - Fixed private space invite should use lock icon instead of planet ([#4886](https://github.com/vector-im/element-ios/issues/4886))
-- Room Lists: Fix generated avatar colours not matching Element Web. ([#4978](https://github.com/vector-im/element-ios/issues/4978))
+- Room Lists: Fix generated avatar colours not matching PL Comms Web. ([#4978](https://github.com/vector-im/element-ios/issues/4978))
 - Contacts Sync: Move call to validateSyncLocalContactsState into MatrixKit. ([#4989](https://github.com/vector-im/element-ios/issues/4989))
 - Timeline: Selecting a message now correctly selects any reactions and URL previews too. ([#4992](https://github.com/vector-im/element-ios/issues/4992))
 
@@ -1925,7 +1925,7 @@ Others
 
 🧱 Build
 
-- Element Alpha: Build on macOS 11 to fix iOS 15 installation error. ([#4937](https://github.com/vector-im/element-ios/issues/4937))
+- PL Comms Alpha: Build on macOS 11 to fix iOS 15 installation error. ([#4937](https://github.com/vector-im/element-ios/issues/4937))
 - Bundler: Update CocoaPods and fastlane and xcode-install. ([#4951](https://github.com/vector-im/element-ios/issues/4951))
 
 📄 Documentation
@@ -2047,7 +2047,7 @@ Others
 ✨ Features
 
 - Account Notification Settings: Enable/disable notification settings (Default, Mentions & Keywords and Other) and edit Keywords. ([#4467](https://github.com/vector-im/element-ios/issues/4467))
-- Implemented dialogs to inform users about Element iOS11 deprecation. ([#4693](https://github.com/vector-im/element-ios/issues/4693))
+- Implemented dialogs to inform users about PL Comms iOS11 deprecation. ([#4693](https://github.com/vector-im/element-ios/issues/4693))
 
 🙌 Improvements
 
@@ -2173,7 +2173,7 @@ Improvements:
 
 🙌 Improvements
 
- * Room Notification Settings: Ability to change between "All Messages", "Mentions and Keywords" and "None". Not yet exposed in Element UI. (#4458).
+ * Room Notification Settings: Ability to change between "All Messages", "Mentions and Keywords" and "None". Not yet exposed in PL Comms UI. (#4458).
  * Add support for sending slow motion videos (#4483).
 
 🐛 Bugfix
@@ -2414,7 +2414,7 @@ Improvements:
 
 🐛 Bugfix
 
- * Self-verification: Fix compatibility with Element-Web (#4217).
+ * Self-verification: Fix compatibility with PL Comms-Web (#4217).
  * Notifications: Fix sender display name that can miss (#4222). 
 
     
@@ -2617,7 +2617,7 @@ Improvements:
 
  * Change Pin inside the app (#3881)
  * AuthVC: Add social login (#3846).
- * Invite friends: Add the ability to invite friends outside of Element in a few places (#3840).
+ * Invite friends: Add the ability to invite friends outside of PL Comms in a few places (#3840).
 
 🙌 Improvements
 
@@ -3089,7 +3089,7 @@ Bug fix:
 ## Changes in 1.0.0 (2020-07-13)
 
 Improvements:
- * Rename Riot to Element
+ * Rename Riot to PL Comms
  * Update deployment target to iOS 11.0. Required for Jitsi > 2.8.x.
  * Theme: Customize UISearchBar with new iOS 13 properties (#3270).
  * NSE: Make extension reusable (#3326).
