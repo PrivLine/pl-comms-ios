@@ -3,7 +3,7 @@ The `buildable` folder contains templates with source files that build.
 The goal is to turn these templates as Xcode templates. They are part of the Riot project in order to ensure they build
 
 # ScreenTemplate
-This is the boilerplate to create a screen that follows the MVVM-C pattern used within the Element app.
+This is the boilerplate to create a screen that follows the MVVM-C pattern used within the PL Comms app.
 
 To create a screen from this template (before it becomes an Xcode template):
 
