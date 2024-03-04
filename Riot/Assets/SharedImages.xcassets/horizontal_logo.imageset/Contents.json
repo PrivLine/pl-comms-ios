@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "horizontal_logo.png",
+      "filename" : "horizontal_logo@1x.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
