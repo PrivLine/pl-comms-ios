@@ -87,7 +87,7 @@ final class BuildSettings: NSObject {
     }
     
     // Element-Web instance for the app
-    static let applicationWebAppUrlString = "https://app.element.io"
+    static let applicationWebAppUrlString = "https://app.privateline.dev"
     
     
     // MARK: - Localization
@@ -103,38 +103,38 @@ final class BuildSettings: NSObject {
 
     /// Default server proposed on the authentication screen
     static var serverConfigDefaultHomeserverUrlString: String {
-        MDMSettings.serverConfigDefaultHomeserverUrlString ?? "https://matrix.org"
+        MDMSettings.serverConfigDefaultHomeserverUrlString ?? "https://mtxnode1.privateline.dev"
     }
     
     /// Default identity server
-    static let serverConfigDefaultIdentityServerUrlString = "https://vector.im"
+    static let serverConfigDefaultIdentityServerUrlString = "https://mtxnode1.privateline.dev"
         
     static var serverConfigSygnalAPIUrlString: String {
-        MDMSettings.serverConfigSygnalAPIUrlString ?? "https://matrix.org/_matrix/push/v1/notify"
+        MDMSettings.serverConfigSygnalAPIUrlString ?? "https://mtxnode1.privateline.dev/_matrix/push/v1/notify"
     }
     
     // MARK: - Legal URLs
     
     // Note: Set empty strings to hide the related entry in application settings
-    static let applicationCopyrightUrlString = "https://element.io/copyright"
-    static let applicationPrivacyPolicyUrlString = "https://element.io/privacy"
-    static let applicationAcceptableUsePolicyUrlString = "https://element.io/acceptable-use-policy-terms"
+    static let applicationCopyrightUrlString = "https://privateline.dev/copyright"
+    static let applicationPrivacyPolicyUrlString = "https://privateline.dev/privacy"
+    static let applicationAcceptableUsePolicyUrlString = "https://privateline.dev/acceptable-use-policy-terms"
     static let applicationHelpUrlString =
-    "https://element.io/help"
+    "https://privateline.dev/help"
     
     
     // MARK: - Permalinks
     // Hosts/Paths for URLs that will considered as valid permalinks. Those permalinks are opened within the app.
     static let permalinkSupportedHosts: [String: [String]] = [
-        "app.element.io": [],
-        "staging.element.io": [],
-        "develop.element.io": [],
-        "mobile.element.io": [""],
+        "app.privateline.dev": [],
+        "staging.privateline.dev": [],
+        "develop.privateline.dev": [],
+        "mobile.privateline.dev": [""],
         // Historical ones
-        "riot.im": ["/app", "/staging", "/develop"],
-        "www.riot.im": ["/app", "/staging", "/develop"],
-        "vector.im": ["/app", "/staging", "/develop"],
-        "www.vector.im": ["/app", "/staging", "/develop"],
+        "mtxnode1.privateline.dev": ["/app", "/staging", "/develop"],
+        "www.mtxnode1.privateline.dev": ["/app", "/staging", "/develop"],
+        "mtxnode1.privateline.dev": ["/app", "/staging", "/develop"],
+        "www.mtxnode1.privateline.dev": ["/app", "/staging", "/develop"],
         // Official Matrix ones
         "matrix.to": ["/"],
         "www.matrix.to": ["/"],
@@ -159,12 +159,12 @@ final class BuildSettings: NSObject {
         return false
         #endif
     }
-    static let stunServerFallbackUrlString: String? = "stun:turn.matrix.org"
+    static let stunServerFallbackUrlString: String? = "stun:turn.mtxnode1.privateline.dev"
     
     // MARK: -  Public rooms Directory
     // List of homeservers for the public rooms directory
     static let publicRoomsDirectoryServers = [
-        "matrix.org",
+        "mtxnode1.privateline.dev",
         "gitter.im"
     ]
     
@@ -193,38 +193,38 @@ final class BuildSettings: NSObject {
     static let analyticsConfiguration = AnalyticsConfiguration(isEnabled: BuildSettings.baseBundleIdentifier.starts(with: "im.vector.app"),
                                                                host: "https://posthog.element.dev",
                                                                apiKey: "phc_VtA1L35nw3aeAtHIx1ayrGdzGkss7k1xINeXcoIQzXN",
-                                                               termsURL: URL(string: "https://element.io/cookie-policy")!)
+                                                               termsURL: URL(string: "https://privateline.dev/cookie-policy")!)
     #else
     /// The configuration to use for analytics. Set `isEnabled` to false to disable analytics.
     static let analyticsConfiguration = AnalyticsConfiguration(isEnabled: BuildSettings.baseBundleIdentifier.starts(with: "im.vector.app"),
-                                                               host: "https://posthog.element.io",
+                                                               host: "https://posthog.privateline.dev",
                                                                apiKey: "phc_Jzsm6DTm6V2705zeU5dcNvQDlonOR68XvX2sh1sEOHO",
-                                                               termsURL: URL(string: "https://element.io/cookie-policy")!)
+                                                               termsURL: URL(string: "https://privateline.dev/cookie-policy")!)
     #endif
     
     
     // MARK: - Bug report
-    static let bugReportEndpointUrlString = "https://riot.im/bugreports"
+    static let bugReportEndpointUrlString = "https://mtxnode1.privateline.dev/bugreports"
     // Use the name allocated by the bug report server
-    static let bugReportApplicationId = "riot-ios"
-    static let bugReportUISIId = "element-auto-uisi"
+    static let bugReportApplicationId = "pl-comms-ios"
+    static let bugReportUISIId = "pl-comms-auto-uisi"
     
     
     // MARK: - Integrations
-    static let integrationsUiUrlString = "https://scalar.vector.im/"
-    static let integrationsRestApiUrlString = "https://scalar.vector.im/api"
+    static let integrationsUiUrlString = "https://scalar.mtxnode1.privateline.dev/"
+    static let integrationsRestApiUrlString = "https://scalar.mtxnode1.privateline.dev/api"
     // Widgets in those paths require a scalar token
     static let integrationsScalarWidgetsPaths = [
-        "https://scalar.vector.im/_matrix/integrations/v1",
-        "https://scalar.vector.im/api",
-        "https://scalar-staging.vector.im/_matrix/integrations/v1",
-        "https://scalar-staging.vector.im/api",
-        "https://scalar-staging.riot.im/scalar/api",
+        "https://scalar.mtxnode1.privateline.dev/_matrix/integrations/v1",
+        "https://scalar.mtxnode1.privateline.dev/api",
+        "https://scalar-staging.mtxnode1.privateline.dev/_matrix/integrations/v1",
+        "https://scalar-staging.mtxnode1.privateline.dev/api",
+        "https://scalar-staging.mtxnode1.privateline.dev/scalar/api",
     ]
     // Jitsi server used outside integrations to create conference calls from the call button in the timeline.
     // Setting this to nil effectively disables Jitsi conference calls (given that there is no wellknown override).
     // Note: this will not remove the conference call button, use roomScreenAllowVoIPForNonDirectRoom setting.
-    static let jitsiServerUrl: URL? = URL(string: "https://jitsi.riot.im")
+    static let jitsiServerUrl: URL? = URL(string: "https://jitsi.privateline.dev")
 
     
     // MARK: - Features
