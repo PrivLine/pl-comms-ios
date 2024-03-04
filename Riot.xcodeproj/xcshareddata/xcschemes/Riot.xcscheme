@@ -16,8 +16,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "57B13CC4586E9D43ED24DE1E"
-               BuildableName = "PL-Comms.app"
-               BlueprintName = "PL-Comms"
+               BuildableName = "PL Comms.app"
+               BlueprintName = "Riot"
                ReferencedContainer = "container:Riot.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -35,11 +35,20 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "57B13CC4586E9D43ED24DE1E"
-            BuildableName = "PL-Comms.app"
-            BlueprintName = "PL-Comms"
+            BuildableName = "PL Comms.app"
+            BlueprintName = "Riot"
             ReferencedContainer = "container:Riot.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <CodeCoverageTargets>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "57B13CC4586E9D43ED24DE1E"
+            BuildableName = "PL Comms.app"
+            BlueprintName = "Riot"
+            ReferencedContainer = "container:Riot.xcodeproj">
+         </BuildableReference>
+      </CodeCoverageTargets>
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -52,17 +61,6 @@
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <CommandLineArguments>
-      </CommandLineArguments>
-      <CodeCoverageTargets>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "57B13CC4586E9D43ED24DE1E"
-            BuildableName = "PL-Comms.app"
-            BlueprintName = "PL-Comms"
-            ReferencedContainer = "container:Riot.xcodeproj">
-         </BuildableReference>
-      </CodeCoverageTargets>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -80,13 +78,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "57B13CC4586E9D43ED24DE1E"
-            BuildableName = "PL-Comms.app"
-            BlueprintName = "PL-Comms"
+            BuildableName = "PL Comms.app"
+            BlueprintName = "Riot"
             ReferencedContainer = "container:Riot.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <CommandLineArguments>
-      </CommandLineArguments>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -99,13 +95,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "57B13CC4586E9D43ED24DE1E"
-            BuildableName = "PL-Comms.app"
-            BlueprintName = "PL-Comms"
+            BuildableName = "PL Comms.app"
+            BlueprintName = "Riot"
             ReferencedContainer = "container:Riot.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <CommandLineArguments>
-      </CommandLineArguments>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
